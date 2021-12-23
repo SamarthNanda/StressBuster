@@ -8,8 +8,10 @@
 
 @media (orientation:portrait) {
     .CD {
+        justify-content: center;
         border: 5px solid black;
         display: inline-block;
         border-radius: 20px;
+        width: 100vw;
     }
 }
