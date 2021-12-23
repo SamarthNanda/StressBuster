@@ -33,7 +33,7 @@ button {
 
 @media (orientation: portrait){
     .song{
-        max-width: 40vmin;
+        max-width: 50vmin;
     }
     h2{
         font-size: 1.3rem;

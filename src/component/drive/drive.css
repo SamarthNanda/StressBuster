@@ -42,4 +42,7 @@ h3 {
     .and{
         display: inline-block;
     }
+    h3 , .drive-link{
+        font-size: 3.5rem;
+    }
 }
