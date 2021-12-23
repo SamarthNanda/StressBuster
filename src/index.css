@@ -1,15 +1,26 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
   background-image: url("https://wallpapercave.com/wp/wp5407373.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
+
 body {
   margin: 0;
   padding: 0;
+}
+
+@media (orientation : portrait) {
+  * {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYX3R4L4FtZEvVynkdN9JoJYo1sigPfmqDLw&usqp=CAU");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }
