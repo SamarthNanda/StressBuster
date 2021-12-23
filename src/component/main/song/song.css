@@ -30,3 +30,12 @@ img {
 button {
     background: #4b4c58;
 }
+
+@media (orientation: portrait){
+    .song{
+        max-width: 40vmin;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+}
