@@ -1,12 +1,13 @@
 .CD {
     display: flex;
-    background-image: linear-gradient(to right ,  #13e7ff, #f9fc40);
+    background-image: linear-gradient(to right, #13e7ff, #f9fc40);
     border-radius: 100px;
     justify-content: center;
     max-height: 100vmax;
 }
-@media only screen and (max-width: 200px) {
-    .CD{
+
+@media (orientation:portrait) {
+    .CD {
         border: 5px solid black;
         display: inline-block;
         border-radius: 20px;
