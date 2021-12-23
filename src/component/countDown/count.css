@@ -1,0 +1,39 @@
+.count {
+    flex: 1;
+    background: none;
+    max-width: 40vmax;
+    text-align: left;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 70px;
+}
+
+h4 {
+    background: none;
+    display: inline;
+    text-align: left;
+    font-size: 4rem;
+    letter-spacing: .5rem;
+    font-family: 'Lobster', cursive;
+    color: #3e3e3f;
+    text-shadow: 2px 2px #f9fc40, -2px -2px;
+}
+
+h3 {
+    background: none;
+    display: inline;
+    color: #3e3e3f;
+}
+
+@media only screen and (min-width:768px) {
+    .count{
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0;
+        max-width: 100vmax;
+    }
+    h4{
+        text-align: center;
+        
+    }
+}

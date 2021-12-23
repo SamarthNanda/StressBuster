@@ -1,0 +1,15 @@
+.outer {
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%, 20%));
+    gap: 2rem;
+    justify-content: center;
+}
+
+@media only screen and (min-width:768px) {
+    .outer {
+        grid-template-columns: repeat(auto-fit, minmax(35%, 35%));
+        column-gap:1rem;
+        row-gap: 4rem;
+    }
+}

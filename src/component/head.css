@@ -1,0 +1,13 @@
+h1 {
+
+    font-family: 'Alfa Slab One', cursive;
+    color: #3e3e3f;
+    font-size: 10vmin;
+    letter-spacing: 1vmin;
+
+    text-shadow: 2px 2px #f9fc40, -2px -2px #13e7ff;
+
+    padding-top: 5vmin;
+
+    text-align: center;
+}

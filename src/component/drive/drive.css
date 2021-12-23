@@ -1,0 +1,45 @@
+.drive {
+    flex: 1;
+    background: none;
+    max-width: 40vmax;
+    text-align: right;
+    padding: 10px;
+    padding-right: 80px;
+}
+
+.and{
+    display: none;
+}
+
+h3 {
+    background: none;
+    color: #525253;
+}
+
+.drive-link {
+    background: none;
+    color: #0eadbe;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.drive-link:link {
+    color: #0eadbe;
+}
+
+.drive-link:hover {
+    color: #0a616b;
+}
+
+
+
+@media only screen and (min-width:768px){
+    .drive{
+        max-width: 100vmax;
+        text-align: center;
+        padding-right: 0;
+    }
+    .and{
+        display: inline-block;
+    }
+}
