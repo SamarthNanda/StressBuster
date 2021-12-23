@@ -8,7 +8,8 @@
 
 @media (orientation:portrait) {
     .CD {
-        margin-left: 10%;
+        margin-left: 50px;
+        margin-right: 50px;
         justify-content: center;
         border: 5px solid black;
         display: inline-block;
