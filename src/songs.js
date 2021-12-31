@@ -167,6 +167,24 @@ const songs = [
         image: "https://img.washingtonpost.com/rf/image_480w/2010-2019/WashingtonPost/2011/09/19/Style/Images/Men_curtainFINAL.jpg?uuid=59tp2uL2EeCKBcEOwQfcZg",
         name: "Two and a half men",
         link: "https://youtu.be/zJV_STpyiTE"
+    },
+    {
+        id: 29,
+        image: "https://static.wikia.nocookie.net/theoffice/images/0/01/Diwali.jpg/revision/latest/top-crop/width/360/height/360?cb=20061103171536",
+        name: "Oh agyi lori way",
+        link: "https://youtu.be/7SXum5KDhBQ"
+    },
+    {
+        id: 30,
+        image: "https://i.ytimg.com/vi/2Isu-RKrrdc/maxresdefault.jpg",
+        name: "Michael Boat Dance",
+        link:"https://youtu.be/2Isu-RKrrdc"
+    },
+    {
+        id: 31,
+        image: "https://m.media-amazon.com/images/M/MV5BMTY2NzY5NTAxN15BMl5BanBnXkFtZTcwNDM5MzA5Nw@@._V1_.jpg",
+        name: "Ted sis on Xmas",
+        link: "https://youtu.be/ELiEb7eOt-M"
     }
 ]
 
