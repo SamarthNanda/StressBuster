@@ -170,7 +170,7 @@ const songs = [
     },
     {
         id: 29,
-        image: "https://static.wikia.nocookie.net/theoffice/images/0/01/Diwali.jpg/revision/latest/top-crop/width/360/height/360?cb=20061103171536",
+        image: "https://m.media-amazon.com/images/M/MV5BNjUxYWYyNDctMGEyYy00YmRhLTgzMGItNTg2OWQ4MmFlNDk2XkEyXkFqcGdeQXVyMDgyNjA5MA@@._V1_.jpg",
         name: "Oh agyi lori way",
         link: "https://youtu.be/7SXum5KDhBQ"
     },
