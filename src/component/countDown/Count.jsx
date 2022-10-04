@@ -6,7 +6,8 @@ function countDays() {
     if(year == 2022){
         year++;
     }
-    let examDate = new Date(year, 5, 28);
+    let examDate = new Date(year, 4, 28);
+    console.log(examDate);
     var days = examDate - today;
     days = Math.floor(days / (1000 * 60 * 60 * 24));
     return days;
