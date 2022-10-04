@@ -3,7 +3,7 @@ import "./count.css";
 function countDays() {
     let today = new Date();
     let year = today.getFullYear();
-    if(year == 2022){
+    if(year === 2022){
         year++;
     }
     let examDate = new Date(year, 4, 28);
