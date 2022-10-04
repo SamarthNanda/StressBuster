@@ -3,7 +3,10 @@ import "./count.css";
 function countDays() {
     let today = new Date();
     let year = today.getFullYear();
-    let examDate = new Date(year, 5, 4);
+    if(year == 2022){
+        year++;
+    }
+    let examDate = new Date(year, 5, 28);
     var days = examDate - today;
     days = Math.floor(days / (1000 * 60 * 60 * 24));
     return days;
